@@ -2,9 +2,9 @@ import './App.css';
 import RestaurantFilter from './RestaurantFilter';
 import {fetchSuccess} from './redux/action/index';
 import { connect } from "react-redux";
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 
-function App() {
+function App({fetchSuccess}) {
   useEffect(() => {
     fetchSuccess();
   }, []);
