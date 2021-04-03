@@ -1,6 +1,7 @@
 import {FETCH_REST_DATA,FETCH_FILTER_DATA} from "./actionType";
 import restData  from '../../jsonfile/restaurants.json';
 import cuisineData from '../../jsonfile/cuisines.json';
+
 const fetchData = (res,cus) =>{
     console.log("restData",res);
     return{
