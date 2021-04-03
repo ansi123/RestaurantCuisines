@@ -1,0 +1,3 @@
+export const FETCH_REST_DATA = 'FETCH_REST_DATA';
+export const FETCH_FILTER_DATA = 'FETCH_FILTER_DATA';
+
